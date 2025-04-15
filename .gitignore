@@ -1,0 +1,17 @@
+@"
+# Django
+*.sqlite3
+*.pyc
+__pycache__/
+
+# Virtual Environment
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
